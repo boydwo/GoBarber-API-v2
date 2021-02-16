@@ -1,0 +1,8 @@
+-yarn init -y
+-yarn add express
+-yarn add typ
+-yarn tsc --init
+-yarn add ts-node-dev -D // executar ts em dev
+-yarn add eslint -D
+-yarn add -D @typescript-eslint/eslint-plugin@latest eslint-config-airbnb-base@latest eslint-plugin-import@^2.22.1 @typescript-eslint/parser@latest
+-yarn add eslint-import-resolver-typescript -D
