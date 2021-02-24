@@ -6,3 +6,6 @@
 -yarn add eslint -D
 -yarn add -D @typescript-eslint/eslint-plugin@latest eslint-config-airbnb-base@latest eslint-plugin-import@^2.22.1 @typescript-eslint/parser@latest
 -yarn add eslint-import-resolver-typescript -D
+
+-docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
+-yarn add typeorm pg
