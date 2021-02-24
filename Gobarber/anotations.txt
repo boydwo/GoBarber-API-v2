@@ -9,3 +9,9 @@
 
 -docker run --name some-postgres -e POSTGRES_PASSWORD=mysecretpassword -d postgres
 -yarn add typeorm pg
+  "typeorm":"ts-node-dev ./node_modules/typeorm/cli.js"
+  -yarn typeorm migration:create -n CreateAppointments
+  -yarn typeorm migration:run
+  -yarn typeorm migration:revert
+  -yarn typeorm migration:show
+-yarn add reflect-metadata
