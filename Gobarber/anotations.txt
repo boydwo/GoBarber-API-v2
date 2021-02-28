@@ -15,4 +15,5 @@
   -yarn typeorm migration:revert
   -yarn typeorm migration:show
 -yarn add reflect-metadata
-- yarn add bcryptjs
+-yarn add bcryptjs
+-yarn add jsonwebtoken
