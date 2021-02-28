@@ -1,6 +1,7 @@
 import { getRepository } from 'typeorm';
 import { compare } from 'bcryptjs';
 import { sign } from 'jsonwebtoken';
+import authConfig from '../config/auth';
 
 import User from '../models/User';
 
@@ -28,9 +29,9 @@ class CreateAppointmentService {
       throw new Error('Incorrect email/password combination.');
     }
 
-    const token = sign({}, '5f45cf7af5c0f615dabf37a5c18cb1ff', {
+    const token = sign({}, authConfig.jwt.secret, {
       subject: user.id,
-      expiresIn: '1d',
+      expiresIn: authConfig.jwt.expiresIn,
     });
 
     delete user.password;
