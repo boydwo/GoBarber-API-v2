@@ -29,6 +29,7 @@
       "error"
     ],
     "prettier/prettier": "error",
+    "no-useless-constructor": "off",
     "@typescript-eslint/naming-convention": [
       "error",
       {
