@@ -19,3 +19,4 @@
 -yarn add jsonwebtoken
 -yarn add multer  //upload de arquivos
 -yarn add express-async-errors
+-yarn add tsconfig-paths -D
