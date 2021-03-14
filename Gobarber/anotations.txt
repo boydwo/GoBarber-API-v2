@@ -29,3 +29,6 @@
 -yarn add multer  //upload de arquivos
 -yarn add express-async-errors
 -yarn add tsconfig-paths -D
+-yarn add jest -D
+  -yarn jest --init
+yarn add ts-jest -D
