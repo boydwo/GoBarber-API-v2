@@ -17,6 +17,4 @@ export default class UsersController {
 
     return response.json(user);
   }
-
-  public async patch(request: Request, response: Response): Promise<Response> {}
 }
