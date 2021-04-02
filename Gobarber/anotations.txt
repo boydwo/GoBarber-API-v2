@@ -34,3 +34,6 @@
 yarn add ts-jest -D
 yarn add nodemailer
 yarn add handlebars // template email
+
+- docker run --name mongodb -p 27017:27017 -d -t mongo
+- yarn add mongodb

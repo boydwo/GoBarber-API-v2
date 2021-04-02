@@ -1,3 +1,3 @@
-import { createConnection } from 'typeorm';
+import { createConnections } from 'typeorm';
 
-createConnection(); // reconhece as crendeciais do .json
+createConnections(); // reconhece as crendeciais do .json
